@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/overstay/static/css/main.fec81653.css",
+    "main.js": "/overstay/static/js/main.10bf9df7.js",
+    "static/js/787.bdbdd2bd.chunk.js": "/overstay/static/js/787.bdbdd2bd.chunk.js",
+    "index.html": "/overstay/index.html",
+    "main.fec81653.css.map": "/overstay/static/css/main.fec81653.css.map",
+    "main.10bf9df7.js.map": "/overstay/static/js/main.10bf9df7.js.map",
+    "787.bdbdd2bd.chunk.js.map": "/overstay/static/js/787.bdbdd2bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fec81653.css",
+    "static/js/main.10bf9df7.js"
+  ]
+}
