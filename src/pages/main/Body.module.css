@@ -1,0 +1,42 @@
+.wrapper {
+    text-align: center;
+}
+
+.content {
+    height: 80vh;
+    align-items: center;
+    justify-content: baseline;
+
+    @media (min-width:473px)  {
+        justify-content: center;
+    }
+}
+
+.title {
+    font-size: 2em;
+}
+
+.widgetsSection {
+    max-width: 860px;
+    min-width: 350px;
+    width: 90%;
+    display: block;
+    
+    @media (min-width:473px)  {
+        display: flex;
+    }
+}
+
+.numberOfDaysInOutput {
+    font-weight: bold;
+}
+
+.entryDateInResultMessage {
+    color: var(--mantine-color-blue-light-color);
+    font-weight: bold;
+}
+
+.overstayDateInResultMessage {
+    color: var(--mantine-color-red-light-color);
+    font-weight: bold;
+}

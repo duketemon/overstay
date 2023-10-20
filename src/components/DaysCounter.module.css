@@ -1,0 +1,40 @@
+.wrapper {
+    flex: 1;
+}
+
+.controlWidgetsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--mantine-radius-sm);
+    border: 1rem solid light-dark(var(--mantine-color-gray-3), transparent);
+    background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-5));
+
+    &:focus-within {
+      border-color: var(--mantine-color-gray-6);
+    }
+}
+
+.title {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.control {
+    background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-7));
+    border: 1rem solid light-dark(var(--mantine-color-gray-3), transparent);
+
+    &:disabled {
+        border-color: light-dark(var(--mantine-color-gray-3), transparent);
+        opacity: 0.8;
+        background-color: transparent;
+    }
+}
+
+.input {
+    width: 100%;
+}
+
+.fixedDaysButtonsWrapper {
+    margin: 5px 0;
+}
